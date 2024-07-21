@@ -1,4 +1,4 @@
-/* Base Styles */
+de/* Base Styles */
 body {
     font-family: "Garamond", Times, serif;
     background-color: #f9f9f9; /* Light grey background for contrast */
@@ -39,7 +39,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-h3 {
+header h3 {
     color: #dee3df;
     padding-bottom: 10px;
     margin-bottom: 20px;
