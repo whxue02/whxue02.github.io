@@ -4,20 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio-Driven 3D Talking Face</title>
-    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Our Website</h1>
+        <h1>Audio-Driven 3D Talking Face</h1>
     </header>
     <div class="container">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac libero a orci laoreet egestas.</p>
-        <h2>Services</h2>
-        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer nec odio.</p>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Welcome to our research project presentation. Here, we explore the latest advancements in our field and share our findings with you.</p>
+        </section>
+        <section id="videos">
+            <h2>Project Videos</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+        <section id="details">
+            <h2>Project Details</h2>
+            <p>Here, you will find detailed information about our research methods, data analysis, and conclusions.</p>
+            <button id="moreDetailsButton">Show More Details</button>
+            <div id="moreDetails" style="display: none;">
+                <p>Our research involved extensive data collection and analysis, utilizing state-of-the-art techniques...</p>
+            </div>
+        </section>
     </div>
     <footer>
-        <p>&copy; 2024 Our Website. All Rights Reserved.</p>
+        <p>&copy; 2024 Research Project. All Rights Reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
