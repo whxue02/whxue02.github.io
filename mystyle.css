@@ -1,6 +1,6 @@
 /* Base Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Garamond", Times, serif;
     background-color: #f9f9f9; /* Light grey background for contrast */
     color: #333; /* Dark grey text for readability */
     margin: 0;
@@ -18,7 +18,7 @@ body {
 
 /* Header */
 header {
-    background-color: #2e7d32; /* Dark green header background */
+    background-color:#243825; /* Dark green header background */
     color: #fff; /* White text */
     padding: 20px 0;
     text-align: center;
@@ -33,10 +33,14 @@ header h1 {
 
 /* Main Content */
 h2 {
-    color: #2e7d32; /* Dark green color for subheadings */
-    border-bottom: 2px solid #2e7d32; /* Underline with the same dark green color */
+    color: #243825; /* Dark green color for subheadings */
+    border-bottom: 2px solid #243825; /* Underline with the same dark green color */
     padding-bottom: 10px;
     margin-bottom: 20px;
+}
+
+h3 {
+    color: #dee3df
 }
 
 p {
@@ -55,14 +59,14 @@ p {
 video {
     width: 100%;
     max-width: 600px;
-    border: 2px solid #2e7d32;
+    border: 2px solid #243825;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Footer */
 footer {
-    background-color: #2e7d32; /* Dark green footer background */
+    background-color: #243825; /* Dark green footer background */
     color: #fff; /* White text */
     text-align: center;
     padding: 10px 0;
