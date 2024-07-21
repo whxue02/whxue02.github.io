@@ -20,7 +20,7 @@ body {
 header {
     background-color:#394f3d; /* Dark green header background */
     color: #fff; /* White text */
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
