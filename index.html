@@ -13,7 +13,12 @@
     <div class="container">
         <section id="introduction">
             <h2>Introduction</h2>
-            <p>Welcome to our research project presentation. Here, we explore the latest advancements in our field and share our findings with you.</p>
+            <p>Our generative model synthesizes an animated sequence of a 3D talking face from the spoken audio using diffusion. 
+The model extracts audio features from the audio using spectrograms, Mel Frequency Cepstral Coefficients (MFCC), and audio encoders (HuBERT). 
+Audio features, time embedding, jaw pose, expression, and condition data are then combined to be used as input for the diffusion model’s training. 
+The model trains by adding noise to a clip of animation data representing a 3D talking face then attempts to predict the original data by denoising the clip. 
+Optimized by comparing the predicted frame and the true frame in dataset
+From putting a face on virtual assistants to creating animated instructors to make learning interactive and engaging or protecting anonymity in virtual conferences, the applications of our model are widespread.</p>
         </section>
         <section id="videos">
             <h2>Project Videos</h2>
