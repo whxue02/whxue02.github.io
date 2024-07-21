@@ -18,7 +18,7 @@ body {
 
 /* Header */
 header {
-    background-color:#fff; /* Dark green header background */
+    background-color:#394f3d; /* Dark green header background */
     color: #fff; /* White text */
     padding: 10px 0;
     text-align: center;
@@ -41,7 +41,6 @@ h2 {
 
 header h3 {
     color: #dee3df;
-    margin: 0;
 }
 
 p {
