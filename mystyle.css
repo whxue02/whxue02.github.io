@@ -1,1 +1,72 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light grey background for contrast */
+    color: #333; /* Dark grey text for readability */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4caf50; /* Green header background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Main Content */
+h2 {
+    color: #4caf50; /* Green color for subheadings */
+    border-bottom: 2px solid #4caf50; /* Underline with the same green color */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Aesthetics */
+body::before,
+body::after {
+    content: '';
+    display: block;
+    height: 4px;
+    background: linear-gradient(to right, #4caf50, #a5d6a7);
+}
+
+body::before {
+    margin-bottom: 20px;
+}
+
+body::after {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #4caf50; /* Green footer background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
