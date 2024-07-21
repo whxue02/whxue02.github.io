@@ -39,7 +39,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-h3 {
+header h3 {
     color: #dee3df;
 }
 
@@ -64,17 +64,6 @@ video {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-/* Footer */
-footer {
-    background-color: #243825; /* Dark green footer background */
-    color: #fff; /* White text */
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
 
 
 
